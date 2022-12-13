@@ -1,0 +1,255 @@
+[
+  {
+    "balance_previous_period": {
+      "number": 0,
+      "string": " صفر ريال "
+    },
+    "balance_period": {
+      "number": 0,
+      "string": " صفر ريال "
+    },
+    "balance_next_period": {
+      "number": 0,
+      "string": " صفر ريال "
+    },
+    "account":1251,
+    "transaction": {
+      "data": [
+        {
+          "id": 1,
+          "account": 1251,
+          "debit": 5,
+          "credit": 0,
+          "balance_debit": 5,
+          "balance_credit": 0,
+          "balance": 5,
+          "reference_type": "App/Models/Sale",
+          "reference_id": 1,
+          "show_reference": true,
+          "description": "debit sales amount",
+          "date": "Mon 21 Nov 20:34:30 2022",
+          "created_at": "Mon 21 Nov 20:34:30 2022",
+          "reference": {
+            "items": [
+              {
+                "item_id": 1,
+                "quantity": 1,
+                "serial": "2323",
+                "title": "dfdfdf",
+                "title_ar": "dd",
+                "has_attributes": "false",
+                "stock": 50,
+                "product_tax": 5,
+                "tax_percentage": 10,
+                "price": 50,
+                "price_after_tax": 55,
+                "subtotal": 55,
+                "total": 55
+              }
+            ],
+            "total": 5,
+            "subtotal": 0,
+            "paid_amount": 5,
+            "remaining_amount": 0,
+            "total_tax": 5
+          }
+        },
+        {
+          "id": 2,
+          "account": 1251,
+          "debit": 0,
+          "credit": 5,
+          "balance_debit": 0,
+          "balance_credit": 0,
+          "balance": 0,
+          "reference_type": "App/Models/Sale",
+          "reference_id": 1,
+          "show_reference": true,
+          "description": "credit sales amount",
+          "date": "Mon 21 Nov 20:34:30 2022",
+          "created_at": "Mon 21 Nov 20:34:30 2022",
+          "reference": {
+            "items": [
+              {
+                "item_id": 1,
+                "quantity": 1,
+                "serial": "2323",
+                "title": "dfdfdf",
+                "title_ar": "dd",
+                "has_attributes": "false",
+                "stock": 50,
+                "product_tax": 5,
+                "tax_percentage": 10,
+                "price": 50,
+                "price_after_tax": 55,
+                "subtotal": 55,
+                "total": 55
+              }
+            ],
+            "total": 5,
+            "subtotal": 0,
+            "paid_amount": 5,
+            "remaining_amount": 0,
+            "total_tax": 5
+          }
+        },
+        {
+          "id": 5,
+          "account": 1251,
+          "debit": 100,
+          "credit": 0,
+          "balance_debit": 100,
+          "balance_credit": 0,
+          "balance": 100,
+          "reference_type": "App/Models/Sale",
+          "reference_id": 2,
+          "show_reference": true,
+          "description": "debit sales amount",
+          "date": "Mon 21 Nov 20:39:34 2022",
+          "created_at": "Mon 21 Nov 20:39:34 2022",
+          "reference": {
+            "items": [
+              {
+                "item_id": 1,
+                "quantity": 1,
+                "serial": "2323",
+                "title": "dfdfdf",
+                "title_ar": "dd",
+                "has_attributes": "false",
+                "stock": 49,
+                "product_tax": 50,
+                "tax_percentage": 10,
+                "price": 500,
+                "price_after_tax": 600,
+                "subtotal": 600,
+                "total": 55
+              }
+            ],
+            "total": 100,
+            "subtotal": 0,
+            "paid_amount": 100,
+            "remaining_amount": 0,
+            "total_tax": 100
+          }
+        },
+        {
+          "id": 6,
+          "account": 1251,
+          "debit": 0,
+          "credit": 100,
+          "balance_debit": 0,
+          "balance_credit": 0,
+          "balance": 0,
+          "reference_type": "App/Models/Sale",
+          "reference_id": 2,
+          "show_reference": true,
+          "description": "credit sales amount",
+          "date": "Mon 21 Nov 20:39:34 2022",
+          "created_at": "Mon 21 Nov 20:39:34 2022",
+          "reference": {
+            "items": [
+              {
+                "item_id": 1,
+                "quantity": 1,
+                "serial": "2323",
+                "title": "dfdfdf",
+                "title_ar": "dd",
+                "has_attributes": "false",
+                "stock": 49,
+                "product_tax": 50,
+                "tax_percentage": 10,
+                "price": 500,
+                "price_after_tax": 600,
+                "subtotal": 600,
+                "total": 55
+              }
+            ],
+            "total": 100,
+            "subtotal": 0,
+            "paid_amount": 100,
+            "remaining_amount": 0,
+            "total_tax": 100
+          }
+        },
+        {
+          "id": 9,
+          "account": 1251,
+          "debit": 70,
+          "credit": 0,
+          "balance_debit": 70,
+          "balance_credit": 0,
+          "balance": 70,
+          "reference_type": "App/Models/Sale",
+          "reference_id": 3,
+          "show_reference": true,
+          "description": "debit sales amount",
+          "date": "Mon 21 Nov 20:40:29 2022",
+          "created_at": "Mon 21 Nov 20:40:29 2022",
+          "reference": {
+            "items": [
+              {
+                "item_id": 1,
+                "quantity": 14,
+                "serial": "2323",
+                "title": "dfdfdf",
+                "title_ar": "dd",
+                "has_attributes": "false",
+                "stock": 48,
+                "product_tax": 70,
+                "tax_percentage": 10,
+                "price": 50,
+                "price_after_tax": 55,
+                "subtotal": 770,
+                "total": 55
+              }
+            ],
+            "total": 70,
+            "subtotal": 0,
+            "paid_amount": 70,
+            "remaining_amount": 0,
+            "total_tax": 70
+          }
+        },
+        {
+          "id": 10,
+          "account": 1251,
+          "debit": 0,
+          "credit": 70,
+          "balance_debit": 0,
+          "balance_credit": 0,
+          "balance": 0,
+          "reference_type": "App/Models/Sale",
+          "reference_id": 3,
+          "show_reference": true,
+          "description": "credit sales amount",
+          "date": "Mon 21 Nov 20:40:29 2022",
+          "created_at": "Mon 21 Nov 20:40:29 2022",
+          "reference": {
+            "items": [
+              {
+                "item_id": 1,
+                "quantity": 14,
+                "serial": "2323",
+                "title": "dfdfdf",
+                "title_ar": "dd",
+                "has_attributes": "false",
+                "stock": 48,
+                "product_tax": 70,
+                "tax_percentage": 10,
+                "price": 50,
+                "price_after_tax": 55,
+                "subtotal": 770,
+                "total": 55
+              }
+            ],
+            "total": 70,
+            "subtotal": 0,
+            "paid_amount": 70,
+            "remaining_amount": 0,
+            "total_tax": 70
+          }
+        }
+      ]
+    }
+  }
+]
